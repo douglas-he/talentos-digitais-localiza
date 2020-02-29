@@ -25,7 +25,7 @@ const movies = [
     subtitle: 'Ghost In The Shell',
     storyline: 'A hacker known as the Puppet Master is hunted by a female cyborg cop and her partner. This film is a revised version of Ghost in the Shell (1995).',
     rating: 5,
-    imagePath: 'images/Kingsglaive_Final_Fantasy_XV.jpg',
+    imagePath: 'images/Ghost_In_The_Shell_2_0.jpg',
     bookmarked: false,
     genre: 'comedy',
   },
