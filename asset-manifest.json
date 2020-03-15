@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/movie-library/static/css/main.f298fb22.chunk.css",
-    "main.js": "/movie-library/static/js/main.20522a49.chunk.js",
-    "main.js.map": "/movie-library/static/js/main.20522a49.chunk.js.map",
-    "runtime-main.js": "/movie-library/static/js/runtime-main.f689548b.js",
-    "runtime-main.js.map": "/movie-library/static/js/runtime-main.f689548b.js.map",
-    "static/js/2.80b33985.chunk.js": "/movie-library/static/js/2.80b33985.chunk.js",
-    "static/js/2.80b33985.chunk.js.map": "/movie-library/static/js/2.80b33985.chunk.js.map",
-    "index.html": "/movie-library/index.html",
-    "precache-manifest.76475f51262cee79b727f334a758f639.js": "/movie-library/precache-manifest.76475f51262cee79b727f334a758f639.js",
-    "service-worker.js": "/movie-library/service-worker.js",
-    "static/css/main.f298fb22.chunk.css.map": "/movie-library/static/css/main.f298fb22.chunk.css.map",
-    "static/js/2.80b33985.chunk.js.LICENSE.txt": "/movie-library/static/js/2.80b33985.chunk.js.LICENSE.txt"
+    "main.css": "/talentos-digitais-localiza/static/css/main.f298fb22.chunk.css",
+    "main.js": "/talentos-digitais-localiza/static/js/main.b59a8015.chunk.js",
+    "main.js.map": "/talentos-digitais-localiza/static/js/main.b59a8015.chunk.js.map",
+    "runtime-main.js": "/talentos-digitais-localiza/static/js/runtime-main.3fd2c934.js",
+    "runtime-main.js.map": "/talentos-digitais-localiza/static/js/runtime-main.3fd2c934.js.map",
+    "static/js/2.80b33985.chunk.js": "/talentos-digitais-localiza/static/js/2.80b33985.chunk.js",
+    "static/js/2.80b33985.chunk.js.map": "/talentos-digitais-localiza/static/js/2.80b33985.chunk.js.map",
+    "index.html": "/talentos-digitais-localiza/index.html",
+    "precache-manifest.451c03a9309d681087109433aaf0988e.js": "/talentos-digitais-localiza/precache-manifest.451c03a9309d681087109433aaf0988e.js",
+    "service-worker.js": "/talentos-digitais-localiza/service-worker.js",
+    "static/css/main.f298fb22.chunk.css.map": "/talentos-digitais-localiza/static/css/main.f298fb22.chunk.css.map",
+    "static/js/2.80b33985.chunk.js.LICENSE.txt": "/talentos-digitais-localiza/static/js/2.80b33985.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.f689548b.js",
+    "static/js/runtime-main.3fd2c934.js",
     "static/js/2.80b33985.chunk.js",
     "static/css/main.f298fb22.chunk.css",
-    "static/js/main.20522a49.chunk.js"
+    "static/js/main.b59a8015.chunk.js"
   ]
 }
