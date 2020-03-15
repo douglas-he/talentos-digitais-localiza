@@ -1,4 +1,6 @@
   <h1>Boas vindas ao repositório talentos digitais Localiza!</h1>
+  
+[Clique aqui para ir para ver no Pages!](https://douglas-he.github.io/talentos-digitais-localiza/ "GITHUB PAGES")
 
   <p>Este é repositório do projeto para o programa de talentos digitais da localiza. O projeto é composto por uma página que        exibe cards de Filmes como principal. O interessante dele é que possível criar, editar e remover os cards (CRUD), tudo          isso, graças a manipulação do state dos components criados.</p>
 
