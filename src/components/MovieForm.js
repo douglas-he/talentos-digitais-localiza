@@ -30,6 +30,7 @@ class MovieForm extends React.Component {
             className="validate"
             value={title}
             onChange={(event) => this.updateMovie('title', event.target.value)}
+            required
           />
           <label className="active" htmlFor="movie_title">Título</label>
         </div>
@@ -50,6 +51,7 @@ class MovieForm extends React.Component {
             className="validate"
             value={subtitle}
             onChange={(event) => this.updateMovie('subtitle', event.target.value)}
+            required
           />
           <label className="active" htmlFor="movie_subtitle">Subtítulo</label>
         </div>
@@ -70,6 +72,7 @@ class MovieForm extends React.Component {
             className="validate"
             value={imagePath}
             onChange={(event) => this.updateMovie('imagePath', event.target.value)}
+            required
           />
           <label className="active" htmlFor="movie_image">Imagem</label>
         </div>
@@ -85,9 +88,10 @@ class MovieForm extends React.Component {
         <div className="input-field col s12">
           <textarea
             id="movie_storyline"
-            className="materialize-textarea"
+            className="materialize-textarea validate"
             value={storyline}
             onChange={(event) => this.updateMovie('storyline', event.target.value)}
+            required
           />
           <label className="active" htmlFor="movie_storyline">Sinopse</label>
         </div>
@@ -105,6 +109,7 @@ class MovieForm extends React.Component {
           className="browser-default"
           value={genre}
           onChange={(event) => this.updateMovie('genre', event.target.value)}
+          required
         >
           <option value="action">Ação</option>
           <option value="comedy">Comédia</option>
@@ -124,12 +129,13 @@ class MovieForm extends React.Component {
             placeholder="Dê a avaliação do filme"
             id="movie_rating"
             type="number"
-            className="form-control"
+            className="form-control validate"
             step={0.1}
             min={0}
             max={5}
             value={rating}
             onChange={(event) => this.updateMovie('rating', event.target.value)}
+            required
           />
           <label className="active" htmlFor="movie_rating">Avaliação</label>
         </div>
@@ -150,7 +156,6 @@ class MovieForm extends React.Component {
       </div>
     );
   }
-
   render() {
     return (
       <div className="movie-form">

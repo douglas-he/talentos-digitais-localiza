@@ -30,11 +30,12 @@ class MovieDetails extends Component {
     const { title, storyline, imagePath, genre, rating, subtitle, id } = movie;
 
     return (
+      <div className="Containrow">
       <div className="row">
         <div className="col s12 m7">
           <div className="card">
             <div className="card-image">
-              <img alt="Movie Cover" src={`../${imagePath}`} />
+              <img alt="Movie Cover" src={`${imagePath}`} />
               <span className="card-title">{title}</span>
             </div>
             <div className="card-content">
@@ -50,6 +51,7 @@ class MovieDetails extends Component {
             </div>
           </div>
         </div>
+      </div>
       </div>
     );
   }
